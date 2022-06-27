@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background-color: #330033;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes play-pop {
+  0%   {transform: scale(1);}
+  50%  {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
